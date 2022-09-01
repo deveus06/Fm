@@ -32,7 +32,8 @@
 }
 
 h1{
-  color:lightseagreen;
+  color:white;
+  backdrop-filter: invert(0.6);
   position:absolute;
   border-radius: 15px;
   margin-top: 15px;
