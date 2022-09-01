@@ -1,0 +1,159 @@
+
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -5;
+}
+
+#lofibtn{
+  animation: dropdown_button_animation 2s ease-in-out 0s 1 normal none;
+}
+#mcbtn{
+  animation: dropdown_button_animation 3s ease-in-out 0s 1 normal none;
+}
+#codingbtn{
+  animation: dropdown_button_animation 4s ease-in-out 0s 1 normal none;
+}
+#anime-classicbtn{
+  animation: dropdown_button_animation 5s ease-in-out 0s 1 normal none;
+}
+#anime-chillbtn{
+  animation: dropdown_button_animation 6s ease-in-out 0s 1 normal none;
+}
+#backgroundbtn{
+  animation: dropdown_button_animation 7s ease-in-out 0s 1 normal none;
+}
+
+h1{
+  color:snow;
+  position:absolute;
+  backdrop-filter: invert(0.2);
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: 65px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.dropdown {
+  display: inline-block;
+  position:relative;
+  margin:25px;
+  top:100px;
+  
+  border-radius: 10px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: snow;
+    padding: 6px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    backdrop-filter: invert(0.6);
+    border-radius: 9px;
+    font-family: cursive;
+  }
+
+  .dropdown:hover .dropbtn {
+    color: antiquewhite;
+  }
+  
+  .dropdown-lofi {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+  
+  .dropdown:hover .dropdown-lofi {
+    display: block;
+  }
+  
+  .dropdown-MC{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+
+  .dropdown:hover .dropdown-MC {
+    display: block;
+  }
+
+  .dropdown-coding{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+
+  .dropdown:hover .dropdown-coding {
+    display: block;
+  }
+
+  .dropdown-anime-classic{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+
+  .dropdown:hover .dropdown-anime-classic {
+    display: block;
+  }
+
+  .dropdown-anime-chill{
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+
+  .dropdown:hover .dropdown-anime-chill {
+    display: block;
+  }
+
+  .dropdown-back{
+    display: none;
+    position: absolute;
+    top:10px;
+    right:10px;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
+  }
+
+
+  @keyframes dropdown_button_animation {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
