@@ -32,7 +32,7 @@
 }
 
 h1{
-  color:lightblue;
+  color:lightseagreen;
   position:absolute;
   border-radius: 15px;
   margin-top: 15px;
@@ -146,6 +146,9 @@ h1{
     animation: dropdown_button_animation 0.8s ease-in-out 0s 1 normal none;
   }
 
+  body{
+    backdrop-filter: none;
+  }
 
   @keyframes dropdown_button_animation {
     0% {
