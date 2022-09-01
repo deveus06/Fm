@@ -147,7 +147,7 @@ h1{
   }
 
   body{
-    backdrop-filter: none;
+    background-color: transparent;
   }
 
   @keyframes dropdown_button_animation {
