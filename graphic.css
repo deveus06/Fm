@@ -32,7 +32,7 @@
 }
 
 h1{
-  color:snow;
+  color:white;
   position:absolute;
   backdrop-filter: invert(0.2);
   border-radius: 15px;
@@ -51,7 +51,7 @@ h1{
 
 .dropbtn {
     background-color: transparent;
-    color: snow;
+    color: white;
     padding: 6px;
     font-size: 25px;
     border: none;
