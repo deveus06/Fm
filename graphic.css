@@ -31,14 +31,9 @@
   animation: dropdown_button_animation 7s ease-in-out 0s 1 normal none;
 }
 
-body{
-  background-color: transparent;
-}
-
 h1{
-  color:white;
+  color:lightblue;
   position:absolute;
-  backdrop-filter: invert(0.2);
   border-radius: 15px;
   margin-top: 15px;
   font-size: 65px;
