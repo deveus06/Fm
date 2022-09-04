@@ -13,22 +13,25 @@
 }
 
 #lofibtn{
-  animation: dropdown_button_animation 2s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 1s ease-in-out 0s 1 normal none;
 }
 #mcbtn{
-  animation: dropdown_button_animation 3s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 1.5s ease-in-out 0s 1 normal none;
 }
 #codingbtn{
-  animation: dropdown_button_animation 4s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 2s ease-in-out 0s 1 normal none;
 }
 #anime-classicbtn{
-  animation: dropdown_button_animation 5s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 2.5s ease-in-out 0s 1 normal none;
 }
 #anime-chillbtn{
-  animation: dropdown_button_animation 6s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 3s ease-in-out 0s 1 normal none;
+}
+#Warcraft{
+  animation: dropdown_button_animation 3.5s ease-in-out 0s 1 normal none;
 }
 #backgroundbtn{
-  animation: dropdown_button_animation 7s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 4s ease-in-out 0s 1 normal none;
 }
 
 h1{
