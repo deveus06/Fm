@@ -30,8 +30,11 @@
 #Warcraft{
   animation: dropdown_button_animation 3.5s ease-in-out 0s 1 normal none;
 }
+#Destiny{
+  animation: dropdown_button_animation 3.8s ease-in-out 0s 1 normal none;
+}
 #backgroundbtn{
-  animation: dropdown_button_animation 4s ease-in-out 0s 1 normal none;
+  animation: dropdown_button_animation 4.1s ease-in-out 0s 1 normal none;
 }
 
 h1{
