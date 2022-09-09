@@ -1,5 +1,9 @@
 @import url('https://fonts.google.com/specimen/Kanit');
 
+body{
+  background-color: transparent;
+}
+
 #myVideo {
   width: 100vw;
   height: 100vh;
